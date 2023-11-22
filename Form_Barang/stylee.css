@@ -1,0 +1,67 @@
+/* style-dark.css */
+
+body {
+     font-family: Arial, sans-serif;
+     background-color: #222;
+     color: #fff;
+     margin: 0;
+ }
+ 
+ .kotak_form {
+     width: 50%;
+     margin: 50px auto;
+     padding: 20px;
+     background-color: #333;
+     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+ }
+ 
+ h1 {
+     text-align: center;
+     color: #fff;
+ }
+ 
+ form {
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ label {
+     margin-bottom: 5px;
+     color: #ccc;
+ }
+ 
+ .form_barang {
+     padding: 8px;
+     margin-bottom: 10px;
+     border: 1px solid #555;
+     border-radius: 4px;
+     background-color: #444;
+     color: #fff;
+ }
+ 
+ button {
+     padding: 10px;
+     background-color: #d40000;
+     color: #fff;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+ }
+ 
+ button:hover {
+     background-color: rgb(192, 89, 89);
+ }
+ 
+ .tombol_cancel {
+     padding: 10px;
+     background-color: #555;
+     color: #fff;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+ }
+ 
+ .tombol_cancel:hover {
+     background-color: #444;
+ }
+ 
